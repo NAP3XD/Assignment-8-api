@@ -4,9 +4,13 @@ info:
   version: 1.0.0
 servers:
   - url: http://localhost:8080
+    description: Local development servers
+  - url: https://assignment-8-api.onrender.com
+    description: Production server on render
 tags:
   - name: Task
     description: Task-related endpoints
 paths:
   /tasks:
     $ref: paths/tasks.yaml
+"completed": true}
